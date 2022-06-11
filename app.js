@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const writeController = require('./controllers/writeController');
 const readController = require('./controllers/readController');
 const updateController = require('./controllers/updateController');
-const deleteController = require('./controller/');
+const deleteController = require('./controller/deleteController');
 
 
 const app = Express();
